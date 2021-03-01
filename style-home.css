@@ -1,0 +1,173 @@
+*{
+    background-color: #f6e0b5;
+    margin: 10px 10px 10px 10px;
+}
+
+.Nav{
+    font-size: 32px;
+    font-family: Crimsom Pro;
+    text-align: center;
+    padding: 30px;
+    border-bottom: #66545e dashed thick;
+}
+.Nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.Intro{
+    padding: 15px;
+    background-color: white;
+    text-align: center;
+    border-radius: 2em;
+}
+
+.Intro h2{
+    background-color: white;
+    padding: 0px;
+    border: none;
+    font-family: Architects Daughter;
+    font-size: 60px;
+}
+
+.Intro h4{
+    background-color: white;
+    padding: 0px;
+    border: none;
+    font-weight: lighter;
+    font-family: Dancing Script;
+    font-size: 38px;
+}
+
+.Content{
+    font-family: Architects Daughter;
+    color: #66545e;
+    text-align: center;
+    padding: 20px;
+}
+
+.Content h3{
+    font-size: 52px;
+}
+
+.Content p{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.Brochures p{
+    width: thick;
+    text-align: center;
+    color: #66545e
+}
+
+.Services h2{
+    font-family: Architects Daughter;
+    background-color: white;
+    color: #66545e;
+    text-align: center;
+    padding: 20px;
+    font-size: 52px;
+}
+
+.Services li{
+    font-family: Architects Daughter;
+    color: #66545e;
+    text-align: center;
+    padding: 20px;
+    border: white dashed thick;
+    font-weight: bolder;
+    background-color: #f6e0b5;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+
+.Socialmedia img{
+    height: 4em;
+    width: 4em;
+}
+
+#insta{
+    position:absolute;
+    top: 50%;
+    right: 0%;
+}
+#snap{
+    position:absolute;
+    top: 55%;
+    right: 0%;
+}
+#fb{
+    position:absolute;
+    top: 60%;
+    right: 0%;
+}
+#twitter{
+    position:absolute;
+    top: 65%;
+    right: 0%;
+}
+
+.Footer{
+    padding: 50px;
+    background-color: #66545e;
+    font-family: Crimson Pro;
+    font-size: 28px;
+    text-align: center;
+    border-radius: 1em;
+}
+.Footer p,h6,li,a{
+    background-color: #66545e;
+    color: white;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+.Footer h5{
+    font-family: Architects Daughter;
+    font-size: 24px;
+    background-color: #66545e;
+    text-decoration: underline;
+}
+.links{
+    background-color: #66545e;
+    color: white;
+}
+.contactinfo{
+    background-color: #66545e;
+    color: white;
+}
+.location{
+    background-color: #66545e;
+    color: white;
+}
+.contactinfo h6{
+    font-weight: thin;
+}
+
+@media not screen and (max-width: 900px){
+    #insta{
+        position:absolute;
+        top: 90%;
+        right: 0%;
+    }
+    #snap{
+        position:absolute;
+        top: 100%;
+        right: 0%;
+    }
+    #fb{
+        position:absolute;
+        top: 110%;
+        right: 0%;
+    }
+    #twitter{
+        position:absolute;
+        top: 120%;
+        right: 0%;
+    }
+}
